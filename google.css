@@ -7,6 +7,7 @@ body {
     background-color: #f8f9fa;
     width: 100%;
 }
+
 .header {
     display: flex;
     justify-content: flex-end;
@@ -16,7 +17,8 @@ body {
     background-color: #f8f9fa;
     gap: 10px;
 }
-.middle{
+
+.middle {
     width: 100%;
     height: 80%;
     display: flex;
@@ -25,29 +27,30 @@ body {
     flex-direction: column;
 
 }
+
 .header-links {
     display: flex;
     align-items: center;
     margin-right: 20px;
-  }
-  
-  .header-links a {
+}
+
+.header-links a {
     margin: 0 10px;
     text-decoration: none;
     color: #555;
     font-weight: 500;
-  }
-  
-  .header-links a:hover {
+}
+
+.header-links a:hover {
     text-decoration: underline;
-  }
-  
-  .menu-icon {
+}
+
+.menu-icon {
     font-size: 18px;
     cursor: pointer;
-  }
-  
-  .login-button {
+}
+
+.login-button {
     background-color: #4285f4;
     color: white;
     border: none;
@@ -56,12 +59,12 @@ body {
     font-size: 14px;
     cursor: pointer;
     font-weight: 500;
-  }
-  
-  .login-button:hover {
+}
+
+.login-button:hover {
     background-color: #3367d6;
-  }
-  
+}
+
 
 .google-logo img {
     width: 272px;
@@ -90,7 +93,7 @@ body {
     margin-top: 20px;
 }
 
-.search-button, .watch-button {
+.search-button {
     padding: 10px 20px;
     font-size: 14px;
     border: 1px solid #f8f9fa;
@@ -101,15 +104,27 @@ body {
     margin: 5px;
 }
 
+.watch-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #5f6368;
+    cursor: pointer;
+    margin: 5px
+}
+
 .search-button:hover {
     border: 1px solid #dadce0;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.watch-button:hover{
+.watch-button:hover {
     border: 1px solid #dadce0;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
+
 .language-links {
     margin-top: 20px;
     font-size: 14px;
@@ -140,9 +155,10 @@ body {
     display: flex;
 }
 
-.footer-right{
+.footer-right {
     díplay: flex;
 }
+
 .footer a {
     margin: 0 10px;
     color: #5f6368;
